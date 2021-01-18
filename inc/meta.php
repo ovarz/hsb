@@ -10,9 +10,9 @@
 <title>Investasi Dan Trading Forex, Emas, Saham, BBM | HSB</title>
 <link href="img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 <link rel="preconnect" href="https://www.ov4rz.com/">
-<link rel="preload" href="fonts/roboto/KFOlCnqEu92Fr1MmWUlfBBc4.woff2" as="font" crossorigin>
-<link rel="preload" href="fonts/roboto/KFOlCnqEu92Fr1MmYUtfBBc4.woff2" as="font" crossorigin>
-<link rel="preload" href="fonts/roboto/KFOmCnqEu92Fr1Mu4mxK.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2" as="font" crossorigin>
 </head>
 <body>
 

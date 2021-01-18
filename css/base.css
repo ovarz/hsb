@@ -7,13 +7,13 @@
   --body-container:1280px;
   --section-space:20px;
 }
-body, html{font-family:'Roboto',sans-serif; font-size:14px; color:var(--font-basecolor); font-weight:400; letter-spacing:0.5px; 
+body, html{font-family:'Poppins',sans-serif; font-size:14px; color:var(--font-basecolor); font-weight:400; letter-spacing:0.5px; 
 -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; -webkit-font-smoothing:antialiased; 
 -moz-osx-font-smoothing:grayscale; text-rendering:optimizeSpeed;}
 body{background-color:var(--background-color); position:relative; padding:var(--body-padding) 0 0;}
-a{color:var(--font-link-primary); font-weight:700; cursor:pointer;}
+a{color:var(--font-link-primary); font-weight:600; cursor:pointer;}
 .btn, a.btn{color:var(--background-color); background-color:var(--font-link-primary); padding:10px 20px; 
-font-weight:700; -webkit-appearance:none; cursor:pointer; text-align:center; text-transform:uppercase;
+font-weight:600; -webkit-appearance:none; cursor:pointer; text-align:center; text-transform:uppercase;
 -moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);}
 .alert{color:#FFF; padding:10px; display:grid; grid-template-columns:34px 1fr; grid-column-gap:10px; margin-bottom:var(--section-space);
 -moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);}
