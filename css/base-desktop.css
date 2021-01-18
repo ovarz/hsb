@@ -1,4 +1,1 @@
 .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
-
-body{padding:var(--body-padding) 0 0;}
-.site-container{min-height:calc(100vh - var(--body-padding));}
