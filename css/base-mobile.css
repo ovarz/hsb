@@ -1,0 +1,13 @@
+.desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}
+
+body{padding:var(--body-padding) 0;}
+.site-container{min-height:calc(100vh - var(--body-padding) - var(--body-padding));}
+
+.menu-bottom{bottom:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--body-padding),1fr));}
+.menu-bottom-link, .menu-bottom-link:focus{color:var(--font-link-primary);}
+.menu-bottom-link{height:var(--body-padding);}
+.menu-bottom-link .fas{display:none;}
+.menu-bottom-curr{color:var(--font-link-tertiary) !important;}
+.menu-bottom-curr .far{display:none;}
+.menu-bottom-curr .fas{display:flex;}
+.mbl-icon{font-size:22px; height:22px;}

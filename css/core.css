@@ -1,0 +1,27 @@
+:root{
+  --background-color:#FDFDFD; 
+  --font-basecolor:#616161; 
+  --font-link-primary:#462e80; 
+  --font-link-secondary:#212121; 
+  --font-link-tertiary:#fec900;
+  --shadow-base:0 1px 6px 0 rgba(32,33,36,.28);
+  --shadow-inset:inset -2px -2px 4px rgba(255,255,255,.2), inset 2px 2px 12px rgba(0,0,0,.2);
+}
+
+a, .btn, #btt{
+transition:all 0.25s; -moz-transition:all 0.25s; -webkit-transition:all 0.25s; -o-transition:all 0.25s;}
+a:hover, #btt, button:hover{cursor:pointer}
+a:hover{color:var(--font-link-secondary);}
+#btt{position:fixed; bottom:110px; right:10px; z-index:97; font-size:18px; margin:10px 0;
+width:36px; height:36px; background-color:rgba(255,255,255,0.5); border:2px solid var(--font-link-primary); color:var(--font-link-primary);
+-webkit-backdrop-filter:blur(5px); backdrop-filter:blur(5px);
+-moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%;}
+#btt:hover{color:var(--font-link-tertiary); border:2px solid var(--font-link-tertiary);}
+
+@media screen and (min-width:0px) and (max-width:1023px){
+  
+}
+
+@media screen and (min-width:1024px){
+  
+}
