@@ -6,6 +6,7 @@
 <?php require ('inc/meta.php')?>
 <?php require ('inc/header.php')?>
 <div class="site-container">
+  <?php require ('module/cover.php')?>
   <section class="content_center">
     <span>
       content

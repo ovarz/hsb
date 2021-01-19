@@ -1,5 +1,9 @@
 .desktop-only{display:none !important; visibility:hidden; content-visibility:hidden;}
 
+@media screen and (min-width:0px) and (max-width:359px){
+  .header-acc-box{font-size:11px;}
+}
+
 .menu-bottom{bottom:0; display:grid; grid-template-columns:repeat(auto-fit, minmax(var(--body-padding),1fr));}
 .menu-bottom-link, .menu-bottom-link:focus{color:var(--font-link-primary);}
 .menu-bottom-link{height:var(--body-padding);}
@@ -8,3 +12,12 @@
 .menu-bottom-curr .far{display:none;}
 .menu-bottom-curr .fas{display:flex;}
 .mbl-icon{font-size:22px; height:22px;}
+
+.cover *{text-align:center;}
+.cover-wording h1{font-size:36px; line-height:44px;}
+.cover-wording h2{font-size:18px; line-height:26px;}
+.cover-button-label{font-size:18px;}
+
+@media screen and (min-width:568px){
+  
+}
