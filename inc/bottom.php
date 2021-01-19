@@ -1,3 +1,7 @@
+<a aria-label="Link Title" alt="link_title" class="btn float-bottom-livechat desktop-only content_center" href="javascript:void(0)">
+  <span>Live Chat</span>
+</a>
+
 <div id="btt" class="content_center" title="Return To Top">
   <i class="fas fa-angle-double-up"></i>
 </div>
