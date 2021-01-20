@@ -39,13 +39,17 @@ header > span{justify-content:space-between;}
 .header-link{height:var(--body-padding); padding:0 5px;}
 .header-logo{padding-left:var(--section-space);}
 .header-logo img{height:36px;}
-.header-right > a:last-child{padding-right:20px;}
+.header-right > a:last-child{padding-right:var(--section-space);}
 .header-acc-box{padding:5px 10px; -moz-border-radius:var(--rounded-small); -webkit-border-radius:var(--rounded-small); border-radius:var(--rounded-small);}
 .header-acc-live .header-acc-box{background-color:var(--font-link-primary); color:#FFF;}
 .header-acc-demo .header-acc-box{border:1px solid var(--font-link-primary); color:var(--font-link-primary);}
 
 .site-container{min-height:calc(100vh - var(--body-padding));}
 section > span{padding:calc(var(--section-space) * 2) var(--section-space);}
+.section-title{width:100%; margin-bottom:var(--section-space);}
+.section-title *{text-align:center;}
+.section-title > span{width:100%; max-width:640px;}
+.section-title h3{font-weight:900; text-transform:uppercase; color:var(--font-link-primary);}
 
 .cover{position:relative; min-height:60vh;}
 .cover > span{display:grid; grid-column-gap:var(--section-space); grid-row-gap:var(--section-space); position:relative; z-index:2;}
@@ -64,3 +68,14 @@ font-weight:bold; text-transform:uppercase; display:grid; grid-template-columns:
 .cover-button .btn{display:inline-block; background-color:var(--font-link-tertiary)}
 .cover-button-label{font-weight:900;}
 .cover-button-desc{text-transform:none; font-weight:normal;}
+
+.character > span{display:block;}
+.character-content > span{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); grid-column-gap:10px; grid-row-gap:10px;}
+.character-content-box{padding:var(--section-space); background-color:#FFF;
+-moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);
+-moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}
+.character-content-box *{text-align:center;}
+.character-content-box h5{font-weight:bold; margin:15px 0; color:var(--font-link-secondary); font-size:30px;}
+.ccb-icon{font-size:64px; height:64px;}
+.ccb-icon .fad:before{color:var(--font-link-tertiary);}
+.ccb-icon .fad:after{opacity:1; color:var(--font-link-primary);}

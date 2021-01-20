@@ -1,3 +1,9 @@
+:root{--section-space:30px;}
+
+@media screen and (min-width:568px){
+  :root{--section-space:40px;}
+}
+
 .mobile-only{display:none !important; visibility:hidden; content-visibility:hidden;}
 
 .float-bottom-livechat.btn{position:fixed; right:var(--section-space); bottom:0; width:360px; height:var(--body-padding); 
@@ -7,6 +13,9 @@ background-color:var(--font-link-tertiary);
 border-radius:var(--rounded-normal) var(--rounded-normal) 0 0;}
 .float-bottom-livechat > span{margin-left:0;}
 
+.section-title h3{font-size:36px; line-height:44px;}
+.section-title h4{font-size:18px; line-height:26px;}
+
 .cover > span{grid-template-columns:1fr 400px;}
 .cover-wording{display:flex; align-items:flex-end;}
 .cover-wording h1{font-size:48px; line-height:56px;}
@@ -15,3 +24,4 @@ border-radius:var(--rounded-normal) var(--rounded-normal) 0 0;}
 .cover-button .btn{padding:15px 30px;}
 .cover-button-label{font-size:24px;}
 
+.character-content > span{grid-column-gap:var(--section-space); grid-row-gap:var(--section-space);}

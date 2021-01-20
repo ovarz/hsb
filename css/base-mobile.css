@@ -13,6 +13,9 @@
 .menu-bottom-curr .fas{display:flex;}
 .mbl-icon{font-size:22px; height:22px;}
 
+.section-title h3{font-size:24px; line-height:32px;}
+.section-title h4{font-size:14px; line-height:22px;}
+
 .cover *{text-align:center;}
 .cover-wording h1{font-size:36px; line-height:44px;}
 .cover-wording h2{font-size:18px; line-height:26px;}

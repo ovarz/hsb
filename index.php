@@ -7,11 +7,12 @@
 <?php require ('inc/header.php')?>
 <div class="site-container">
   <?php require ('module/cover.php')?>
-  <section class="content_center">
-    <span>
-      content
-    </span>
-  </section>
+  <?php require ('module/character.php')?>
+  <?php require ('module/cost.php')?>
+  <?php require ('module/profit.php')?>
+  <?php require ('module/win.php')?>
+  <?php require ('module/open.php')?>
+
 </div>
 <?php require ('inc/footer.php')?>
 <?php require ('inc/menu-bottom.php')?>
