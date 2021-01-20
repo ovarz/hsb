@@ -64,6 +64,7 @@ section > span{padding:calc(var(--section-space) * 2) var(--section-space);}
 font-weight:bold; text-transform:uppercase; display:grid; grid-template-columns:50px 1fr; grid-column-gap:10px;
 -moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);}
 .cfl-icon{font-size:36px;}
+.cfl-icon .fad:after{opacity:1; color:var(--font-link-tertiary);}
 .cfl-info > span{margin-left:0;}
 .cover-button .btn{display:inline-block; background-color:var(--font-link-tertiary);
 -moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}

@@ -65,8 +65,7 @@ footer > span > *{padding:var(--section-space) 0;}
 .cost .section-title h4{color:rgba(255,255,255,0.75);}
 .cost > span{display:block; position:relative; z-index:3;}
 .cost-content > span{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); grid-column-gap:10px; grid-row-gap:10px;}
-.cost-content-box{background-color:rgba(0,0,0,0.25); -webkit-backdrop-filter:blur(5px); backdrop-filter:blur(5px); overflow:hidden;
--moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);
+.cost-content-box{background-color:rgba(0,0,0,0.25); -webkit-backdrop-filter:blur(5px); backdrop-filter:blur(5px); border:2px solid rgba(255,255,255,0.1); overflow:hidden; -moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);
 -moz-box-shadow:var(--shadow-base); -webkit-box-shadow:var(--shadow-base); box-shadow:var(--shadow-base);}
 .cost-content-box *{text-align:center;}
 .cost-content-box h5{font-weight:bold; margin-bottom:15px; color:#FFF; font-size:30px;}
