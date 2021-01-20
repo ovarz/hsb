@@ -65,7 +65,8 @@ font-weight:bold; text-transform:uppercase; display:grid; grid-template-columns:
 -moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);}
 .cfl-icon{font-size:36px;}
 .cfl-info > span{margin-left:0;}
-.cover-button .btn{display:inline-block; background-color:var(--font-link-tertiary)}
+.cover-button .btn{display:inline-block; background-color:var(--font-link-tertiary);
+-moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}
 .cover-button-label{font-weight:900;}
 .cover-button-desc{text-transform:none; font-weight:normal;}
 

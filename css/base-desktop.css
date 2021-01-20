@@ -10,7 +10,8 @@
 background-color:var(--font-link-tertiary);
 -moz-border-radius:var(--rounded-normal) var(--rounded-normal) 0 0; 
 -webkit-border-radius:var(--rounded-normal) var(--rounded-normal) 0 0; 
-border-radius:var(--rounded-normal) var(--rounded-normal) 0 0;}
+border-radius:var(--rounded-normal) var(--rounded-normal) 0 0;
+-moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}
 .float-bottom-livechat > span{margin-left:0;}
 
 .section-title h3{font-size:36px; line-height:44px;}
