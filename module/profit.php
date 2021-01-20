@@ -1,4 +1,4 @@
-  <section class="cost content_center">
+  <section class="profit content_center">
     <span>
       <div class="section-title content_center">
         <span>
