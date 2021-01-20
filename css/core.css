@@ -147,7 +147,7 @@ padding:15px 0 var(--testi-padding); margin:0 var(--testi-padding);}
 
 
 
-.open{position:relative;}
+.open{position:relative; border-top:1px solid #E0E0E0;}
 .open .cover-image{background-color:#FFF;}
 .open .cover-image .flex_lazy{background-attachment:fixed;}
 .open .cover-image:after{opacity:0;}
