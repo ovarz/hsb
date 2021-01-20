@@ -60,7 +60,7 @@ section > span{padding:calc(var(--section-space) * 2) var(--section-space);}
 .cover-wording h2{color:rgba(255,255,255,0.85);}
 .cover-feature{display:grid; grid-template-columns:1fr; grid-row-gap:15px;}
 .cover-feature *{color:#FFF; text-align:left !important;}
-.cover-feature-list{border:3px solid rgba(255,255,255,0.5); padding:var(--section-space); background-color:rgba(0,0,0,0.25);
+.cover-feature-list{border:3px solid rgba(255,255,255,0.5); padding:20px; background-color:rgba(0,0,0,0.25);
 font-weight:bold; text-transform:uppercase; display:grid; grid-template-columns:50px 1fr; grid-column-gap:10px;
 -moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);}
 .cfl-icon{font-size:36px;}
