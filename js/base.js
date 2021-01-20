@@ -23,10 +23,25 @@ var back_to_top = function(){
   });	
 };
 
+var scroll_reveal_show = function(){
+  window.sr = ScrollReveal({mobile:true,viewFactor:0.2,reset:false});
+  sr.reveal('.cover > span > *', 50);
+  sr.reveal('.cover-feature > *', 50);
+  sr.reveal('.section-title > span > *', 50);
+  sr.reveal('.character-content > span > *', 50);
+  sr.reveal('.cost-content > span > *', 50);
+  sr.reveal('.profit-content > span > *', 50);
+  sr.reveal('.win-content > span > *', 50);
+  sr.reveal('.testimoni-list > *', 50);
+  sr.reveal('footer > span > *', 50);
+  sr.reveal('.footer-office-info > *', 50);
+}
+
 $(document).ready(function(){
   "use strict";
   all_scroll();
   back_to_top();
+  scroll_reveal_show();
 });
 
 $(".flex_ori > img").lazyload({effect:"fadeIn"});

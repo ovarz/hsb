@@ -24,6 +24,7 @@
   if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
   else window.addEventListener('load', loadDeferredStyles);
 </script>
+<script defer src="js/scrollreveal.js"></script>
 <script defer src="js/base.js"></script>
 </body>
 </html>

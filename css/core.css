@@ -20,7 +20,7 @@ width:36px; height:36px; background-color:rgba(255,255,255,0.5); border:2px soli
 -moz-border-radius:50%; -webkit-border-radius:50%; border-radius:50%;}
 #btt:hover{color:var(--font-link-tertiary); border:2px solid var(--font-link-tertiary);}
 
-footer{background-color:#10203a; padding-bottom:var(--body-padding); color:rgba(255,255,255,0.66);}
+footer{background-color:#10203a; color:rgba(255,255,255,0.66);}
 footer > span{display:block; padding:0 var(--section-space); line-height:150%;}
 footer > span > *{padding:var(--section-space) 0;}
 .footer-desc > *, .footer-risk > *{padding-bottom:10px;}
@@ -45,6 +45,7 @@ footer > span > *{padding:var(--section-space) 0;}
 .footer-socmed-link:hover{color:#FFF;}
 
 @media screen and (min-width:0px) and (max-width:1023px){
+  footer{padding-bottom:var(--body-padding);}
   .footer-office-info{margin-top:10px;}
 }
 
@@ -142,7 +143,7 @@ grid-column-gap:var(--testi-padding); grid-row-gap:var(--testi-padding);}
 .tlb-person{display:grid; grid-template-columns:40px 1fr; grid-column-gap:10px; border-top:1px dashed #E0E0E0; 
 position:absolute; bottom:0; left:0; width:calc(100% - (2 * var(--testi-padding))); 
 padding:15px 0 var(--testi-padding); margin:0 var(--testi-padding);}
-.tlb-name{font-weight:bold; color:#212121;}
+.tlb-name{font-weight:bold; color:var(--font-link-primary);}
 
 
 
