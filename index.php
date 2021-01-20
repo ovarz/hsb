@@ -11,6 +11,7 @@
   <?php require ('module/cost.php')?>
   <?php require ('module/profit.php')?>
   <?php require ('module/win.php')?>
+  <?php require ('module/testimoni.php')?>
   <?php require ('module/open.php')?>
 
 </div>
