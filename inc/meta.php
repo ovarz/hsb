@@ -13,6 +13,10 @@
 <link rel="preload" href="fonts/poppins/pxiEyp8kv8JHgFVrJJfecg.woff2" as="font" crossorigin>
 <link rel="preload" href="fonts/poppins/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2" as="font" crossorigin>
 <link rel="preload" href="fonts/poppins/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome6/fa-regular-400.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome6/fa-duotone-900.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome6/fa-solid-900.woff2" as="font" crossorigin>
+<link rel="preload" href="fonts/awesome6/fa-brands-400.woff2" as="font" crossorigin>
 </head>
 <body>
 
