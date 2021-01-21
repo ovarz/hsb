@@ -21,6 +21,12 @@
 .cover-wording h2{font-size:18px; line-height:26px;}
 .cover-button-label{font-size:18px;}
 
+.highlight *{text-align:center;}
+.highlight-title h1{font-size:36px; line-height:44px;}
+.highlight-title h2{font-size:18px; line-height:26px;}
+.highlight-feature-list{max-width:330px; width:100%; margin:0 auto;}
+.highlight-button-label{font-size:18px;}
+
 @media screen and (min-width:568px){
   
 }
