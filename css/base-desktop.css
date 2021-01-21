@@ -25,7 +25,7 @@ border-radius:var(--rounded-normal) var(--rounded-normal) 0 0;
 .cover-button .btn{padding:15px 30px;}
 .cover-button-label{font-size:24px;}
 
-.highlight > span{grid-template-columns:1fr 1fr; margin-right:0;}
+.highlight > span{grid-template-columns:1fr 1fr;}
 .highlight-title h1{font-size:48px; line-height:56px;}
 .highlight-title h2{font-size:24px; line-height:32px;}
 .highlight-feature-list{font-size:18px;}

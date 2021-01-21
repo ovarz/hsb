@@ -27,6 +27,8 @@ var scroll_reveal_show = function(){
   window.sr = ScrollReveal({mobile:true,viewFactor:0.2,reset:true});
   sr.reveal('.cover > span > *', 100);
   sr.reveal('.cover-feature > *', 100);
+  sr.reveal('.highlight > span > *', 100);
+  sr.reveal('.highlight-info > span > *', 100);
   sr.reveal('.character-content > span > *', 100);
   sr.reveal('.reduce > span > *', 100);
   sr.reveal('.reduce-content > *', 100);

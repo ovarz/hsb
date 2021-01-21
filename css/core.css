@@ -164,8 +164,9 @@ padding:15px 0 var(--testi-padding); margin:0 var(--testi-padding);}
 .open .cover-image:after{opacity:0;}
 .open > span{display:block; position:relative; z-index:2;}
 .open-button *{text-align:center;}
-.open-button .btn{display:inline-block;
+.open-button .btn{display:inline-block; background-color:var(--font-link-tertiary);
 -moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}
+.open-button .btn:hover{background-color:var(--font-link-secondary);}
 .open-button-label{font-weight:900;}
 .open-button-desc{text-transform:none; font-weight:normal;}
 
