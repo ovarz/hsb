@@ -13,6 +13,7 @@
   <?php require ('module/win.php')?>
   <?php require ('module/testimoni.php')?>
   <?php require ('module/open.php')?>
+  <?php require ('module/address.php')?>
 
 </div>
 <?php require ('inc/footer.php')?>

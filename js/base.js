@@ -33,6 +33,9 @@ var scroll_reveal_show = function(){
   sr.reveal('.profit-content > span > *', 50);
   sr.reveal('.win-content > span > *', 50);
   sr.reveal('.testimoni-list > *', 50);
+  sr.reveal('.address-info > *', 50);
+  sr.reveal('.address-contact-link', 50);
+  sr.reveal('.address-socmed-link', 50);
   sr.reveal('footer > span > *', 50);
   sr.reveal('.footer-office-info > *', 50);
 }
