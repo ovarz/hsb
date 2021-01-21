@@ -8,7 +8,7 @@
 <div class="site-container">
   <?php require ('module/cover.php')?>
   <?php require ('module/character.php')?>
-  <?php require ('module/cost.php')?>
+  <?php require ('module/reduce.php')?>
   <?php require ('module/profit.php')?>
   <?php require ('module/win.php')?>
   <?php require ('module/testimoni.php')?>

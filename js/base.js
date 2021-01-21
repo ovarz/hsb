@@ -24,20 +24,21 @@ var back_to_top = function(){
 };
 
 var scroll_reveal_show = function(){
-  window.sr = ScrollReveal({mobile:true,viewFactor:0.2,reset:false});
-  sr.reveal('.cover > span > *', 50);
-  sr.reveal('.cover-feature > *', 50);
-  sr.reveal('.section-title > span > *', 50);
-  sr.reveal('.character-content > span > *', 50);
-  sr.reveal('.cost-content > span > *', 50);
-  sr.reveal('.profit-content > span > *', 50);
-  sr.reveal('.win-content > span > *', 50);
-  sr.reveal('.testimoni-list > *', 50);
-  sr.reveal('.address-info > *', 50);
-  sr.reveal('.address-contact-link', 50);
-  sr.reveal('.address-socmed-link', 50);
-  sr.reveal('footer > span > *', 50);
-  sr.reveal('.footer-office-info > *', 50);
+  window.sr = ScrollReveal({mobile:true,viewFactor:0.2,reset:true});
+  sr.reveal('.cover > span > *', 100);
+  sr.reveal('.cover-feature > *', 100);
+  sr.reveal('.character-content > span > *', 100);
+  sr.reveal('.reduce > span > *', 100);
+  sr.reveal('.reduce-content > *', 100);
+  sr.reveal('.cost-content > span > *', 100);
+  sr.reveal('.profit-content > span > *', 100);
+  sr.reveal('.win-content > span > *', 100);
+  sr.reveal('.testimoni-list > *', 100);
+  sr.reveal('.address-info > *', 100);
+  sr.reveal('.address-contact-link', 100);
+  sr.reveal('.address-socmed-link', 100);
+  sr.reveal('footer > span > *', 100);
+  sr.reveal('.footer-office-info > *', 100);
 }
 
 $(document).ready(function(){

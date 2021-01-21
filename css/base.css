@@ -3,7 +3,7 @@
 :root{
   --rounded-small:5px;
   --rounded-normal:10px;
-  --body-padding:50px;
+  --body-padding:60px;
   --body-container:1280px;
   --section-space:20px;
 }
@@ -30,7 +30,8 @@ ol::before, ol::after{content:''; display:block; overflow:hidden; visibility:hid
 #btt{display:none;}
 
 header > span, section > span, footer > span{width:100%; max-width:var(--body-container); display:flex;}
-header, .menu-bottom{position:fixed; z-index:99; left:0; width:100%; background-color:#FFF;
+header, .menu-bottom{position:fixed; z-index:99; left:0; width:100%; background-color:rgba(255,255,255,0.8); 
+-webkit-backdrop-filter:blur(7px); backdrop-filter:blur(7px);
 -moz-box-shadow:var(--shadow-base); -webkit-box-shadow:var(--shadow-base); box-shadow:var(--shadow-base);} 
 
 header{top:0;}
@@ -67,17 +68,15 @@ font-weight:bold; text-transform:uppercase; display:grid; grid-template-columns:
 .cfl-icon .fad:after{opacity:1; color:var(--font-link-tertiary);}
 .cfl-info > span{margin-left:0;}
 .cover-button .btn{display:inline-block; background-color:var(--font-link-tertiary);
--moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}
+-moz-box-shadow:var(--shadow-base); -webkit-box-shadow:var(--shadow-base); box-shadow:var(--shadow-base);}
 .cover-button-label{font-weight:900;}
 .cover-button-desc{text-transform:none; font-weight:normal;}
 
 .character > span{display:block;}
 .character-content > span{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); grid-column-gap:10px; grid-row-gap:10px; width:100%;}
-.character-content-box{padding:var(--section-space); background-color:#FFF;
--moz-border-radius:var(--rounded-normal); -webkit-border-radius:var(--rounded-normal); border-radius:var(--rounded-normal);
--moz-box-shadow:var(--shadow-neumorph); -webkit-box-shadow:var(--shadow-neumorph); box-shadow:var(--shadow-neumorph);}
+.character-content-box{padding:var(--section-space);}
 .character-content-box *{text-align:center;}
 .character-content-box h5{font-weight:bold; margin:15px 0; color:var(--font-link-secondary); font-size:30px;}
-.ccb-icon{font-size:64px; height:64px;}
-.ccb-icon .fad:before{color:var(--font-link-tertiary);}
+.ccb-icon{font-size:85px; height:85px;}
+.ccb-icon .fad:before, .ccb-icon .fal:before{color:var(--font-link-tertiary);}
 .ccb-icon .fad:after{opacity:1; color:var(--font-link-primary);}
