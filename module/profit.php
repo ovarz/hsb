@@ -1,4 +1,8 @@
-  <section class="profit content_center">
+<section class="profit content_center">
+  <div class="cover-image">
+    <div class="mobile-only flex_lazy"><img alt="Cover" data-original="img/worldmap-mobile.png" /></div>
+    <div class="desktop-only flex_lazy"><img alt="Cover" data-original="img/worldmap-desktop.png" /></div>
+  </div>
     <span>
       <div class="section-title content_center">
         <span>
@@ -38,4 +42,4 @@
         </span>
       </div>
     </span>
-  </section>
+</section>
